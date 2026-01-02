@@ -40,3 +40,4 @@ mongoose.connect(process.env.MONGO_URI)
   .catch(console.error);
 
 client.login(process.env.BOT_TOKEN);
+// deploy trigger
